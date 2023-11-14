@@ -1,3 +1,5 @@
+import { Card } from "./Card";
+
 export const ProfileCard = () => {
   return (
     <div className="p-1 mt-5 bg-dark text-center mx-auto rounded profile-card">
@@ -10,18 +12,9 @@ export const ProfileCard = () => {
           alt="vettel"
         />
         <div className="w-100 row d-flex justify-content-center">
-          <div className="col-3 mx-2 bg-secondary rounded p-1">
-            <p className="text-white ">Repos</p>
-            <p className="text-white">6</p>
-          </div>
-          <div className="col-3 mx-2 bg-secondary rounded p-1">
-            <p className="text-white ">Followers</p>
-            <p className="text-white">0</p>
-          </div>
-          <div className="col-3 mx-2 bg-secondary rounded p-1">
-            <p className="text-white ">Following</p>
-            <p className="text-white">0</p>
-          </div>
+          <Card title="Repos" quantity={6} />
+          <Card title="Followers" quantity={0} />
+          <Card title="Following" quantity={0} />
         </div>
       </div>
     </div>
