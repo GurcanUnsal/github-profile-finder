@@ -4,11 +4,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.search-btn {
+.custom-btn {
     background-color: #610C9F;
 }
 
-.search-btn:hover {
+.custom-btn:hover {
     background-color: #101010;
     border: 1px solid #610C9F;
     box-shadow: rgba(97, 12, 159, 0.5) 0px 8px 24px;
@@ -20,4 +20,9 @@ body {
 
 .dark-input:focus {
     outline: none;
+}
+
+.profile-card {
+    width: 400px;
+    height: 400px;
 }

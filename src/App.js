@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Navbar";
+import { ProfileCard } from "./components/ProfileCard";
 import { ProfileFinder } from "./components/ProfileFinder";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
         <Navbar />
         <ProfileFinder />
+        <ProfileCard />
     </>
   );
 }

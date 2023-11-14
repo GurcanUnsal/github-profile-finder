@@ -1,7 +1,7 @@
 export const ProfileFinder = () => {
   return (
     <div>
-      <h2 className="pt-4 text-white fw-bold text-center">
+      <h2 className="mt-4 text-white fw-bold text-center">
         Github Profile Finder
       </h2>
       <div className="pt-4 container-fluid">
@@ -13,7 +13,7 @@ export const ProfileFinder = () => {
               placeholder="Github Username"
             />
           </div>
-          <button type="submit" className="btn search-btn ms-2">
+          <button type="submit" className="btn custom-btn ms-2">
             <i className="bi bi-search text-white"></i>
           </button>
         </form>
