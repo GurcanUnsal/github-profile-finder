@@ -1,28 +1,28 @@
 body {
   margin: 0;
   background-color: #101010;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .custom-btn {
-    background-color: #610C9F;
+  background-color: #610c9f;
 }
 
 .custom-btn:hover {
-    background-color: #101010;
-    border: 1px solid #610C9F;
-    box-shadow: rgba(97, 12, 159, 0.5) 0px 8px 24px;
+  background-color: #101010;
+  border: 1px solid #610c9f;
+  box-shadow: rgba(97, 12, 159, 0.5) 0px 8px 24px;
 }
 
 .dark-input {
-    background-color: #303030;
+  background-color: #303030;
 }
 
 .dark-input:focus {
-    outline: none;
+  outline: none;
 }
 
 .profile-card {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
